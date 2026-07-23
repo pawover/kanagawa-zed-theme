@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kanagawa Theme — HTML Playground" />
+    <meta property="og:title" content="Kanagawa Playground" />
+    <meta property="og:type" content="website" />
+    <base href="/" />
+    <title>Kanagawa — HTML Playground</title>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script type="module" src="app.js"></script>
+    <style>
+      /* embedded stylesheet */
+      .hero { padding: 2rem; }
+    </style>
+  </head>
+
+  <body>
+    <!-- ═══ Header ═══ -->
+    <header id="header" class="header" role="banner">
+      <nav aria-label="Main navigation">
+        <a href="/" class="logo" aria-current="page">
+          <img src="logo.svg" alt="Kanagawa" width="32" height="32" />
+          <span>Kanagawa</span>
+        </a>
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ═══ Main Content ═══ -->
+    <main>
+      <section id="hero" class="hero" aria-label="Hero section">
+        <h1>Kanagawa <small>Zed Theme</small></h1>
+        <p class="lead">
+          A <strong>dark</strong> color scheme inspired by the
+          <em>Kanagawa</em> waves, originally from
+          <abbr title="NeoVim color scheme">NeoVim</abbr>.
+        </p>
+
+        <button class="btn btn--primary" type="button" data-action="toggle">
+          <span class="icon">🌊</span>
+          Toggle Theme
+        </button>
+
+        <button class="btn btn--ghost" type="button" disabled>
+          Disabled
+        </button>
+      </section>
+
+      <!-- ═══ Typography ═══ -->
+      <section aria-labelledby="typo-heading">
+        <h2 id="typo-heading">Typography</h2>
+
+        <h3>Headings</h3>
+        <h4>Level 4</h4>
+        <h5>Level 5</h5>
+        <h6>Level 6</h6>
+
+        <p>
+          Paragraph with <b>bold</b>, <i>italic</i>,
+          <u>underline</u>, <s>strikethrough</s>,
+          <mark>highlighted</mark>, <small>small</small>,
+          <code>inline code</code>, <kbd>Ctrl+S</kbd>,
+          <var>x</var> = <var>n</var> + 1,
+          <sup>superscript</sup>, <sub>subscript</sub>,
+          and a <a href="#link">link</a>.
+        </p>
+
+        <blockquote cite="https://example.com">
+          <p>This is a blockquote with a citation.</p>
+          <footer>— <cite>Example Source</cite></footer>
+        </blockquote>
+
+        <pre><code>// Code block preserved inside pre
+function hello() {
+  console.log("Hello, world!");
+}</code></pre>
+
+        <hr />
+      </section>
+
+      <!-- ═══ Lists ═══ -->
+      <section aria-labelledby="list-heading">
+        <h2 id="list-heading">Lists</h2>
+
+        <ul>
+          <li>Unordered item one</li>
+          <li>Unordered item two
+            <ul>
+              <li>Nested item</li>
+              <li>Another nested item</li>
+            </ul>
+          </li>
+          <li>Unordered item three</li>
+        </ul>
+
+        <ol type="1" start="10" reversed>
+          <li>Ordered item</li>
+          <li value="5">Ordered with explicit value</li>
+          <li>Ordered item</li>
+        </ol>
+
+        <dl>
+          <dt>Term name</dt>
+          <dd>Term description</dd>
+          <dt>Another term</dt>
+          <dd>Multiple descriptions</dd>
+          <dd>Are allowed</dd>
+        </dl>
+      </section>
+
+      <!-- ═══ Tables ═══ -->
+      <section aria-labelledby="table-heading">
+        <h2 id="table-heading">Tables</h2>
+
+        <table>
+          <caption>Color palette</caption>
+          <colgroup>
+            <col class="name" />
+            <col class="value" span="2" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Hex</th>
+              <th scope="col">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>Sumi Ink</code></td>
+              <td>#1F1F28</td>
+              <td>Background</td>
+            </tr>
+            <tr>
+              <td><code>Fuji White</code></td>
+              <td>#DCD7BA</td>
+              <td>Foreground</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">3 colors total</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- ═══ Forms ═══ -->
+      <section aria-labelledby="form-heading">
+        <h2 id="form-heading">Forms</h2>
+
+        <form action="/submit" method="post" enctype="multipart/form-data" novalidate>
+          <fieldset>
+            <legend>Personal info</legend>
+
+            <label for="name">Name <span aria-label="required">*</span></label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+              minlength="2"
+              maxlength="50"
+              autocomplete="name"
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="user@example.com"
+              autocomplete="email"
+            />
+
+            <label for="age">Age</label>
+            <input
+              id="age"
+              name="age"
+              type="number"
+              min="0"
+              max="150"
+              step="1"
+              value="25"
+            />
+
+            <label for="color">Favorite color</label>
+            <input
+              id="color"
+              name="color"
+              type="color"
+              value="#7E9CD8"
+            />
+
+            <label for="bio">Bio</label>
+            <textarea
+              id="bio"
+              name="bio"
+              rows="4"
+              cols="40"
+              placeholder="Tell us about yourself"
+            >Default text</textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferences</legend>
+
+            <label>
+              <input type="checkbox" name="newsletter" checked />
+              Subscribe to newsletter
+            </label>
+
+            <label>
+              <input type="checkbox" name="terms" required />
+              Accept <a href="/terms">terms</a>
+            </label>
+
+            <label>
+              <input type="radio" name="theme" value="dark" checked />
+              Dark mode
+            </label>
+
+            <label>
+              <input type="radio" name="theme" value="light" />
+              Light mode
+            </label>
+
+            <label for="country">Country</label>
+            <select id="country" name="country" multiple size="3">
+              <optgroup label="Asia">
+                <option value="cn" selected>China</option>
+                <option value="jp">Japan</option>
+                <option value="kr">Korea</option>
+              </optgroup>
+              <optgroup label="Europe">
+                <option value="uk">UK</option>
+                <option value="de">Germany</option>
+              </optgroup>
+            </select>
+
+            <label for="file">Upload</label>
+            <input
+              id="file"
+              name="file"
+              type="file"
+              accept=".json,.toml"
+              multiple
+            />
+
+            <input type="hidden" name="token" value="abc123" />
+
+            <label for="range">Volume</label>
+            <input
+              id="range"
+              name="volume"
+              type="range"
+              min="0"
+              max="100"
+              value="75"
+            />
+
+            <label for="search">Search</label>
+            <input
+              id="search"
+              type="search"
+              name="q"
+              placeholder="Search..."
+              autocomplete="off"
+            />
+
+            <label for="url">Website</label>
+            <input
+              id="url"
+              type="url"
+              name="website"
+              placeholder="https://example.com"
+              pattern="https?://.*"
+            />
+          </fieldset>
+
+          <button type="submit" class="btn btn--primary">
+            Submit
+          </button>
+          <button type="reset" class="btn btn--ghost">
+            Reset
+          </button>
+        </form>
+      </section>
+
+      <!-- ═══ Media ═══ -->
+      <section aria-labelledby="media-heading">
+        <h2 id="media-heading">Media</h2>
+
+        <figure>
+          <img
+            src="screenshot.png"
+            alt="Screenshot of Kanagawa theme"
+            width="800"
+            height="600"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>Kanagawa theme <cite>preview</cite></figcaption>
+        </figure>
+
+        <picture>
+          <source srcset="image.avif" type="image/avif" />
+          <source srcset="image.webp" type="image/webp" />
+          <img src="image.png" alt="Fallback image" />
+        </picture>
+
+        <video controls width="640" height="360" poster="poster.jpg">
+          <source src="video.mp4" type="video/mp4" />
+          <source src="video.webm" type="video/webm" />
+          <track
+            kind="subtitles"
+            src="subtitles.vtt"
+            srclang="en"
+            label="English"
+            default
+          />
+          <p>Your browser doesn't support video.</p>
+        </video>
+
+        <audio controls preload="metadata">
+          <source src="audio.mp3" type="audio/mpeg" />
+        </audio>
+
+        <iframe
+          src="https://example.com"
+          title="Example"
+          width="560"
+          height="315"
+          loading="lazy"
+          sandbox="allow-scripts allow-same-origin"
+          allow="clipboard-write"
+        ></iframe>
+      </section>
+
+      <!-- ═══ Semantic Tags ═══ -->
+      <section aria-labelledby="semantic-heading">
+        <h2 id="semantic-heading">Semantic Elements</h2>
+
+        <article>
+          <header>
+            <h3>Article title</h3>
+            <time datetime="2026-06-26T10:00:00Z">June 26, 2026</time>
+            by <span class="author">Pawover</span>
+          </header>
+          <p>Article content goes here.</p>
+          <footer>Tags: <a href="/tag/zed">zed</a></footer>
+        </article>
+
+        <aside>
+          <h3>Sidebar</h3>
+          <nav aria-label="Related links">
+            <ul>
+              <li><a href="/related/1">Related 1</a></li>
+              <li><a href="/related/2">Related 2</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <details name="faq">
+          <summary>What is Kanagawa?</summary>
+          <p>A dark color scheme inspired by Japanese ukiyo-e art.</p>
+        </details>
+
+        <details name="faq">
+          <summary>Is it free?</summary>
+          <p>Yes, it's open source.</p>
+        </details>
+
+        <dialog id="modal" aria-labelledby="modal-title">
+          <h3 id="modal-title">Dialog title</h3>
+          <p>Dialog content</p>
+          <form method="dialog">
+            <button type="submit">Close</button>
+          </form>
+        </dialog>
+
+        <template id="template-example">
+          <li class="dynamic-item">Dynamic content</li>
+        </template>
+
+        <progress value="60" max="100">60%</progress>
+        <meter value="0.7" min="0" max="1" optimum="0.8">70%</meter>
+
+        <canvas id="canvas" width="200" height="100">
+          Canvas fallback text
+        </canvas>
+
+        <svg width="100" height="100" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="40" fill="#7E9CD8" />
+          <text x="50" y="55" text-anchor="middle" fill="white">
+            SVG
+          </text>
+        </svg>
+
+        <map name="map-example">
+          <area
+            shape="rect"
+            coords="0,0,50,50"
+            href="/area-a"
+            alt="Area A"
+          />
+        </map>
+      </section>
+    </main>
+
+    <!-- ═══ Footer ═══ -->
+    <footer role="contentinfo">
+      <address>
+        Written by <a href="mailto:user@example.com">Pawover</a>.<br />
+        Visit us at:<br />
+        Example Corp<br />
+        123 Main Street<br />
+        City, State
+      </address>
+
+      <small>&copy; 2026 Kanagawa Zed Theme. All rights reserved.</small>
+    </footer>
+
+    <!-- ═══ Scripts ═══ -->
+    <script>
+      // inline script
+      console.log("Hello from HTML playground");
+    </script>
+
+    <script src="app.js" type="module" defer></script>
+    <noscript>JavaScript is disabled.</noscript>
+  </body>
+</html>

@@ -1,0 +1,299 @@
+# ═══════════════════════════════════════════════════════════════
+#   YAML Playground — Kanagawa Theme Preview
+# ═══════════════════════════════════════════════════════════════
+
+# ── Scalars ──────────────────────────────────────────────────────
+name: Kanagawa
+version: 0.0.2
+description: "A dark Z-ed theme inspired by Kanagawa waves"
+release_date: 2026-06-26
+is_active: true
+is_draft: false
+count: 42
+ratio: 3.14159
+null_value: null
+tilde_null: ~
+boolean_true: yes
+boolean_false: no
+boolean_on: on
+boolean_off: off
+
+# ── Strings ──────────────────────────────────────────────────────
+plain: unquoted string
+single_quoted: 'single quoted with : colon'
+double_quoted: "double quoted with \n escape and \" quote"
+multi_line_block: |
+  This is a literal block scalar.
+  Line breaks are preserved.
+  Trailing newline is kept.
+
+multi_line_strip: |-
+  This is a literal block scalar.
+  Trailing newline is stripped.
+
+multi_line_fold: >
+  This is a folded block scalar.
+  Lines are folded into spaces.
+  But newlines are kept at end.
+
+multi_line_fold_strip: >-
+  Folded block scalar.
+  Trailing newline stripped.
+
+# ── Numbers ──────────────────────────────────────────────────────
+integer: 1024
+hexadecimal: 0xFF
+octal: 0o77
+binary: 0b1010
+exponent: 6.022e23
+infinity: .inf
+negative_inf: -.inf
+not_a_number: .nan
+positive: +42
+negative: -42
+
+# ── Collections ──────────────────────────────────────────────────
+# Sequences (list)
+languages:
+  - JavaScript
+  - TypeScript
+  - Rust
+  - Python
+
+# Mixed sequence
+mixed:
+  - string
+  - 42
+  - true
+  - null
+  - key: value
+  - [nested, list]
+
+# Associative array (mapping)
+author:
+  name: Pawover
+  email: pawover@example.com
+  active: true
+  roles:
+    developer: true
+    designer: false
+
+# Flow sequences
+flow_list: [one, two, three]
+
+# Flow mappings
+flow_map: {key1: value1, key2: value2}
+
+# ── Nested Structures ────────────────────────────────────────────
+theme:
+  name: Kanagawa
+  colors:
+    bg: "#1F1F28"
+    fg: "#DCD7BA"
+    syntax:
+      keyword: "#FF9E3B"
+      string: "#98BB6C"
+      function: "#7E9CD8"
+      comment: "#54546D"
+  fonts:
+    sans: ["Inter", "system-ui", "sans-serif"]
+    mono:
+      - Fira Code
+      - Cascadia Code
+      - monospace
+  settings:
+    font_size: 14
+    line_height: 1.5
+    tab_size: 2
+
+# ── Multi-document ───────────────────────────────────────────────
+---
+# Document 2
+doc: second
+items:
+  - id: 1
+    label: "Item One"
+  - id: 2
+    label: "Item Two"
+---
+# Document 3
+doc: third
+anchors:
+  default: &defaults
+    adapter: postgres
+    host: localhost
+    port: 5432
+
+  development:
+    <<: *defaults
+    database: dev_db
+    user: dev_user
+
+  production:
+    <<: *defaults
+    database: prod_db
+    user: prod_user
+    password: "secret"
+
+# ── Anchors & Aliases ────────────────────────────────────────────
+base_config: &base
+  image: node:20
+  steps:
+    - checkout
+    - install
+
+job_a:
+  <<: *base
+  name: Build
+  script: npm run build
+
+job_b:
+  <<: *base
+  name: Test
+  script: npm test
+
+# Direct alias
+shared_list: &list
+  - item A
+  - item B
+alias_list: *list
+
+# ── Tags ─────────────────────────────────────────────────────────
+# Explicit typing
+!!str "explicit string"
+!!int "42"
+!!float "3.14"
+!!bool "true"
+!!null ""
+!!seq [1, 2, 3]
+!!map {a: 1}
+
+# Custom tag
+!my-tag value
+!<tag:example.com,2026:custom>
+custom_type: !person
+  name: John
+  age: 30
+
+# ── Complex Keys ─────────────────────────────────────────────────
+? - list
+  - as
+  - key
+: value
+
+? {mapping: key}
+: mapping value
+
+? "string key with special : chars"
+: value
+
+# ── Multi-line Strings ───────────────────────────────────────────
+preserve_newlines: |
+  Line 1
+  Line 2
+
+  Line 4 (blank line above)
+
+fold_no_trailing: >-
+  This is all
+  on one line when parsed
+
+indented_block: |
+    Indented block
+    Still part of the block
+  Back to outer indent
+
+# ── Special Characters ───────────────────────────────────────────
+with_colons: "string: with: colons"
+with_hash: "string with # hash"
+no_quote_needed: "but quoting doesn't hurt"
+
+# ── Very Long Lines ──────────────────────────────────────────────
+long_string: "这是一个很长的字符串示例，用来测试编辑器主题在长文本下的渲染效果，包括语法高亮的持续性和视觉舒适度"
+long_list:
+  - alpha
+  - beta
+  - gamma
+  - delta
+  - epsilon
+  - zeta
+  - eta
+  - theta
+  - iota
+  - kappa
+
+# ── CI/CD Pipeline Example ───────────────────────────────────────
+name: CI
+on:
+  push:
+    branches: [main, develop]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Deployment environment
+        type: environment
+        required: true
+        default: staging
+
+env:
+  NODE_VERSION: "20"
+  PNPM_VERSION: "9"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node: [18, 20, 22]
+        os: [ubuntu-latest, windows-latest]
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+
+  test:
+    needs: lint
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - run: pnpm install
+      - run: pnpm test -- --coverage
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-${{ matrix.os }}
+          path: coverage/
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: deploy-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Deploy to production
+        run: echo "Deploying..."
+      - name: Notify
+        uses: slackapi/slack-github-action@v2
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK }}

@@ -1,7 +1,7 @@
 id = "kanagawa-theme"
 name = "Kanagawa Zed Theme"
-version = "0.0.1"
-schema_version = 1
+version = "0.0.2"
+schema_version = 2
 authors = ["Pawover <pawover@outlook.com>"]
 description = "A port of the Kanagawa NeoVim color theme for Zed"
 repository = "https://github.com/pawover/kanagawa-zed-theme"

@@ -7,99 +7,250 @@
       "appearance": "dark",
       "name": "Kanagawa Wave",
       "style": {
+        // 强调色数组（用于全局高亮和强调）
         "accents": ["#957FB8", "#FFA066", "#7E9CD8", "#D27E99", "#E6C384", "#7AA89F"],
-        "created": "#98BB6C",
-        "created.background": "#98BB6C26",
-        "created.border": "#98BB6C",
-        "deleted": "#C34043",
-        "deleted.background": "#C3404326",
-        "deleted.border": "#C34043",
-        "modified": "#E6C384",
-        "modified.background": "#E6C38426",
-        "modified.border": "#E6C384",
-        "renamed": "#7FB4CA",
-        "renamed.background": "#7FB4CA26",
-        "renamed.border": "#7FB4CA",
-        "conflict": "#FF5D62",
-        "conflict.background": "#FF5D6226",
-        "conflict.border": "#FF5D62",
-        "ignored": "#727169",
-        "ignored.background": "#72716926",
-        "ignored.border": "#727169",
-        "unreachable": "#E46876",
-        "unreachable.background": "#E4687626",
-        "unreachable.border": "#E46876",
-        "hint": "#658594",
-        "hint.background": "#65859426",
-        "hint.border": "#658594",
-        "success": "#76946A",
-        "success.background": "#76946A26",
-        "success.border": "#76946A",
-        "warning": "#FF9E3B",
-        "warning.background": "#FF9E3B26",
-        "warning.border": "#FF9E3B",
-        "error": "#C34043",
-        "error.background": "#C3404326",
-        "error.border": "#C34043",
-        "info": "#7FB4CA",
-        "info.background": "#7FB4CA26",
-        "info.border": "#7FB4CA",
-        "predictive": "#727169",
-        "predictive.background": "#72716926",
-        "predictive.border": "#727169",
 
-        "background": "#1F1F28",
-        "background.appearance": null,
-        "border": "#16161D",
+        // ========== 状态指示色 ==========
+        // 已创建
+        "created": "#98BB6C",
+        "created.background": "#3F4937",
+        "created.border": "#98BB6C4C",
+        // 已删除
+        "deleted": "#C34043",
+        "deleted.background": "#4C252B",
+        "deleted.border": "#C340434C",
+        // 已修改
+        "modified": "#E6C384",
+        "modified.background": "#564C3E",
+        "modified.border": "#E6C3844C",
+        // 已重命名
+        "renamed": "#7FB4CA",
+        "renamed.background": "#374753",
+        "renamed.border": "#7FB4CA4C",
+        // 冲突
+        "conflict": "#FF5D62",
+        "conflict.background": "#5E2D34",
+        "conflict.border": "#FF5D624C",
+        // 已忽略
+        "ignored": "#727169",
+        "ignored.background": "#343336",
+        "ignored.border": "#7271694C",
+        // 不可达代码
+        "unreachable": "#E46876",
+        "unreachable.background": "#55313A",
+        "unreachable.border": "#E468764C",
+        // 提示信息
+        "hint": "#54546D",
+        "hint.background": "#2B2B38",
+        "hint.border": "#54546D4C",
+        // AI 预测/补全
+        "predictive": "#727169",
+        "predictive.background": "#343336",
+        "predictive.border": "#7271694C",
+        // 隐藏文件/元素
+        "hidden": "#54546D",
+        "hidden.background": "#2B2B38",
+        "hidden.border": "#54546D4C",
+        // 成功状态
+        "success": "#76946A",
+        "success.background": "#353E37",
+        "success.border": "#76946A4C",
+        // 警告状态
+        "warning": "#FF9E3B",
+        "warning.background": "#5E4129",
+        "warning.border": "#FF9E3B4C",
+        // 错误状态
+        "error": "#C34043",
+        "error.background": "#4C252B",
+        "error.border": "#C340434C",
+        // 信息提示
+        "info": "#7FB4CA",
+        "info.background": "#374753",
+        "info.border": "#7FB4CA4C",
+
+        // ========== 核心 UI 颜色 ==========
+        // 应用窗口背景色
+        "background": "#16161D",
+        // 窗口背景外观模式
+        "background.appearance": "blurred",
+        // 默认边框色
+        "border": "#181820",
+        // 禁用元素边框色
         "border.disabled": "#4F4F66",
-        "border.focused": "#223249",
+        // 聚焦元素边框色
+        "border.focused": "#54546D",
+        // 选中元素边框色
         "border.selected": "#2D4F67",
+        // 透明占位边框色
         "border.transparent": "#22324966",
-        "border.variant": "#16161D",
+        // 次要边框/分隔线颜色
+        "border.variant": "#2A2A37",
+        // 拖拽放置目标背景色
         "drop_target.background": "#2D4F6766",
-        "editor.active_line_number": "#DCA561",
-        "editor.active_line.background": "#363646",
+        // 当前激活行行号颜色
+        "editor.active_line_number": "#FFA066",
+        // 当前行高亮背景色
+        "editor.active_line.background": "#2A2A37",
+        // 激活的换行指示线颜色
         "editor.active_wrap_guide": "#54546D",
+        // 编辑器背景色
         "editor.background": "#1F1F28",
+        // 匹配括号高亮背景色
         "editor.document_highlight.bracket_background": "#C340434C",
-        "editor.document_highlight.read_background": "#3636464D",
-        "editor.document_highlight.write_background": "#3636464D",
+        // 符号读取引用高亮背景色
+        "editor.document_highlight.read_background": "#3636464C",
+        // 符号写入引用高亮背景色
+        "editor.document_highlight.write_background": "#3636464C",
+        // 编辑器前景文字色
         "editor.foreground": "#DCD7BA",
+        // 行号区域背景色
         "editor.gutter.background": "#1F1F28",
-        "editor.highlighted_line.background": null,
+        // 高亮行背景色
+        "editor.highlighted_line.background": "#363646",
+        // 缩进参考线颜色
         "editor.indent_guide": null,
+        // 激活缩进参考线颜色
         "editor.indent_guide_active": null,
+        // 不可见字符颜色（空格/制表符等）
         "editor.invisible": "#36364666",
-        "editor.line_number": "#54546D",
-        "editor.subheader.background": "#16161D",
+        // 行号文字颜色
+        "editor.line_number": "#938AA999",
+        // 多缓冲区文件分隔头背景色
+        "editor.subheader.background": "#2A2A37",
+        // 换行指示线颜色
         "editor.wrap_guide": "#363646",
+        // 元素激活状态背景色（如按钮按下）
         "element.active": "#363646",
+        // 元素默认背景色（按钮/输入框等）
         "element.background": "#2A2A37",
+        // 元素禁用状态背景色
         "element.disabled": "#4F4F66",
-        "element.hover": "#2D4F6799",
+        // 元素悬停状态背景色
+        "element.hover": "#363646",
+        // 元素选中状态背景色
         "element.selected": "#363646",
-        "elevated_surface.background": "#2A2A37",
-        "ghost_element.active": "#363646",
-        "ghost_element.background": null,
-        "ghost_element.disabled": "#4F4F66",
-        "ghost_element.hover": "#2D4F6799",
-        "ghost_element.selected": "#2D4F6799",
-        "hidden": "#727169",
-        "hidden.background": "#1F1F28",
-        "hidden.border": "#727169",
+        // 浮起表面背景色（菜单/弹窗/对话框）
+        "elevated_surface.background": "#363646",
+        // 幽灵元素各状态背景色（与表面同色的轻量元素）
+        "ghost_element.background": "#363646",
+        "ghost_element.hover": "#4F4F66",
+        "ghost_element.selected": "#54546D",
+        "ghost_element.active": "#54546D",
+        "ghost_element.disabled": "#2A2A37",
+
+        // ========== 图标颜色 ==========
+        // 默认图标填充色
         "icon": "#DCD7BA",
+        // 强调图标色
         "icon.accent": "#7E9CD8",
+        // 禁用图标色
         "icon.disabled": "#4F4F66",
+        // 弱化图标色
         "icon.muted": "#727169",
+        // 占位图标色
         "icon.placeholder": "#4F4F66",
-        "link_text.hover": "#7FB4CA",
-        "pane_group.border": "#16161D",
+
+        // ========== 分栏颜色 ==========
+        // 分栏组之间的边框色
+        "pane_group.border": "#2A2A37",
+        // 当前聚焦窗格边框色
         "pane.focused_border": "#54546D",
-        "panel.background": "#16161D",
-        "panel.focused_border": "#16161D",
+
+        // ========== 面板颜色 ==========
+        // 面板背景色
+        "panel.background": "#1F1F28",
+        // 面板聚焦边框色
+        "panel.focused_border": "#363646",
+        // 面板内缩进参考线
         "panel.indent_guide": "#2A2A37",
-        "panel.indent_guide_active": "#54546D",
+        "panel.indent_guide_active": "#938AA9",
         "panel.indent_guide_hover": "#54546D",
+
+        // ========== 滚动条 ==========
+        // 滚动条滑块
+        "scrollbar.thumb.background": "#36364699",
+        "scrollbar.thumb.border": null,
+        "scrollbar.thumb.hover_background": "#363646CC",
+        // 滚动条轨道
+        "scrollbar.track.background": "#1F1F28",
+        "scrollbar.track.border": "#1F1F28",
+
+        // 搜索匹配项背景色
+        "search.match_background": "#2D4F67",
+        // 状态栏背景色
+        "status_bar.background": "#181820",
+        // 表面背景色（面板/标签栏等基础表面）
+        "surface.background": "#1F1F28",
+
+        // ========== 文字颜色 ==========
+        // 默认文字色
+        "text": "#DCD7BA",
+        // 强调文字色
+        "text.accent": "#7E9CD8",
+        // 禁用文字色
+        "text.disabled": "#DCD7BA99",
+        // 弱化文字色
+        "text.muted": "#DCD7BAB2",
+        // 占位文字色
+        "text.placeholder": "#727169",
+        // 链接悬停文字颜色
+        "link_text.hover": "#7FB4CA",
+
+        // ========== 窗口 ==========
+        // 窗口激活标题栏背景色
+        "title_bar.background": "#363646",
+        // 窗口非激活标题栏背景色
+        "title_bar.inactive_background": "#16161D",
+
+        // ========== 标签栏 ==========
+        "tab_bar.background": "#2A2A37",
+        // 标签激活背景色
+        "tab.active_background": "#363646",
+        // 标签未激活背景色
+        "tab.inactive_background": "#2A2A37",
+
+        // ========== 工具栏 ==========
+        // 工具栏背景色
+        "toolbar.background": "#363646",
+
+        // ========== 终端 ANSI 色 ==========
+        "terminal.ansi.background": "#363646",
+        "terminal.ansi.black": "#16161D",
+        "terminal.ansi.blue": "#7E9CD8",
+        "terminal.ansi.cyan": "#6A9589",
+        "terminal.ansi.green": "#76946A",
+        "terminal.ansi.magenta": "#957FB8",
+        "terminal.ansi.red": "#C34043",
+        "terminal.ansi.white": "#DCD7BA",
+        "terminal.ansi.yellow": "#E6C384",
+        // 终端 ANSI 暗色
+        "terminal.ansi.dim_black": "#1F1F28",
+        "terminal.ansi.dim_blue": "#9CABCA",
+        "terminal.ansi.dim_cyan": "#658594",
+        "terminal.ansi.dim_green": "#7AA89F",
+        "terminal.ansi.dim_magenta": "#D27E99",
+        "terminal.ansi.dim_red": "#E46876",
+        "terminal.ansi.dim_white": "#727169",
+        "terminal.ansi.dim_yellow": "#C0A36E",
+        // 终端 ANSI 亮色
+        "terminal.ansi.bright_black": "#727169",
+        "terminal.ansi.bright_blue": "#7FB4CA",
+        "terminal.ansi.bright_cyan": "#7AA89F",
+        "terminal.ansi.bright_green": "#98BB6C",
+        "terminal.ansi.bright_magenta": "#938AA9",
+        "terminal.ansi.bright_red": "#C34043",
+        "terminal.ansi.bright_white": "#DCD7BA",
+        "terminal.ansi.bright_yellow": "#E6C384",
+        // 终端背景色
+        "terminal.background": "#1F1F28",
+        // 终端前景色（亮色）
+        "terminal.bright_foreground": "#DCD7BA",
+        // 终端前景色（暗色）
+        "terminal.dim_foreground": "#727169",
+        // 终端默认前景色
+        "terminal.foreground": "#DCD7BA",
+
+        // ========== 协作者游标颜色 ==========
         "players": [
           {
             "background": "#DCD7BA",
@@ -142,518 +293,374 @@
             "selection": "#957FB833"
           }
         ],
-        "scrollbar.thumb.background": "#54546D66",
-        "scrollbar.thumb.border": "#2A2A3780",
-        "scrollbar.thumb.hover_background": "#54546D80",
-        "scrollbar.track.background": "#1F1F28",
-        "scrollbar.track.border": "#363646",
-        "search.match_background": "#2D4F67",
-        "status_bar.background": "#16161D",
-        "surface.background": "#1F1F28",
+
+        // ========== 语法高亮颜色 ==========
         "syntax": {
+          // HTML 属性、装饰器
           "attribute": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
+          // 内置属性
+          "attribute.builtin": {
+            "background_color": null,
+            "color": "#957FB8",
+            "font_style": null,
+            "font_weight": null
+          },
+          // JSX 属性
           "attribute.jsx": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
+          // 布尔字面量
           "boolean": {
             "background_color": null,
             "color": "#FF9E3B",
             "font_style": null,
             "font_weight": null
           },
+          // 注释
           "comment": {
             "background_color": null,
             "color": "#727169",
             "font_style": null,
             "font_weight": null
           },
+          // 文档注释
           "comment.doc": {
             "background_color": null,
             "color": "#727169",
             "font_style": null,
             "font_weight": null
           },
+          // 常量
           "constant": {
             "background_color": null,
-            "color": "#B8B4D0",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 内置常量
           "constant.builtin": {
             "background_color": null,
-            "color": "#7AA89F",
+            "color": "#FF9E3B",
             "font_style": null,
             "font_weight": null
           },
-          "constant.character": {
-            "background_color": null,
-            "color": "#FFA066",
-            "font_style": null,
-            "font_weight": null
-          },
-          "constant.escape": {
-            "background_color": null,
-            "color": "#7FB4CA",
-            "font_style": null,
-            "font_weight": null
-          },
-          "constant.numeric": {
-            "background_color": null,
-            "color": "#D27E99",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 构造函数
           "constructor": {
             "background_color": null,
-            "color": "#7E9CD8",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 嵌入内容
           "embedded": {
             "background_color": null,
-            "color": "#C34043",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 强调文字（斜体）
           "emphasis": {
             "background_color": null,
-            "color": "#E46876",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 加强调文字（粗体）
           "emphasis.strong": {
             "background_color": null,
-            "color": "#E46876",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
-          "enum": {
-            "background_color": null,
-            "color": "#FFA066",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 函数名
           "function": {
             "background_color": null,
             "color": "#7E9CD8",
             "font_style": null,
             "font_weight": null
           },
+          // 内置函数
           "function.builtin": {
             "background_color": null,
             "color": "#7FB4CA",
             "font_style": null,
             "font_weight": null
           },
-          "function.constructor": {
+          // 函数调用
+          "function.call": {
             "background_color": null,
-            "color": "#7FB4CA",
+            "color": "#7E9CD8",
             "font_style": null,
             "font_weight": null
           },
+          // 宏
+          "function.macro": {
+            "background_color": null,
+            "color": "#FF5D62",
+            "font_style": null,
+            "font_weight": null
+          },
+          // 方法
           "function.method": {
             "background_color": null,
             "color": "#7E9CD8",
             "font_style": null,
             "font_weight": null
           },
+          // 提示/注释文本
           "hint": {
             "background_color": null,
-            "color": "#658594",
+            "color": "#54546D",
             "font_style": null,
             "font_weight": null
           },
+          // 关键字
           "keyword": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
+          // 控制流关键字（if/for/while 等）
           "keyword.control": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
-          "keyword.control.conditional": {
+          // 预处理指令
+          "keyword.directive": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
-          "keyword.control.flow": {
-            "background_color": null,
-            "color": "#957FB8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "keyword.control.loop": {
-            "background_color": null,
-            "color": "#957FB8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "keyword.control.trycatch": {
-            "background_color": null,
-            "color": "#FF5D62",
-            "font_style": null,
-            "font_weight": null
-          },
-          "keyword.declaration": {
-            "background_color": null,
-            "color": "#957FB8",
-            "font_style": null,
-            "font_weight": null
-          },
+          // import/export 关键字
           "keyword.import": {
             "background_color": null,
             "color": "#FFA066",
             "font_style": null,
             "font_weight": null
           },
-          "keyword.operator.regex": {
+          // 关键字运算符
+          "keyword.operator": {
             "background_color": null,
-            "color": "#C0A36E",
+            "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
-          "label": {
-            "background_color": null,
-            "color": "#7E9CD8",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 链接文字
           "link_text": {
             "background_color": null,
-            "color": "#6A9589",
+            "color": "#FFA066",
             "font_style": null,
             "font_weight": null
           },
+          // 链接 URL
           "link_uri": {
             "background_color": null,
-            "color": "#6A9589",
+            "color": "#7FB4CA",
             "font_style": null,
             "font_weight": null
           },
+          // 数字字面量
           "number": {
             "background_color": null,
             "color": "#D27E99",
             "font_style": null,
             "font_weight": null
           },
+          // 运算符
           "operator": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
-          "predictive": {
-            "background_color": null,
-            "color": "#727169",
-            "font_style": null,
-            "font_weight": null
-          },
-          "preproc": {
-            "background_color": null,
-            "color": "#957FB8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "primary": {
-            "background_color": null,
-            "color": "#E46876",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 属性名
           "property": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
-          "property.css": {
+          // 内置属性
+          "property.builtin": {
             "background_color": null,
-            "color": "#7AA89F",
+            "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
+          // JSON 键名
           "property.json_key": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
+          // 标点符号
           "punctuation": {
             "background_color": null,
             "color": "#9CABCA",
             "font_style": null,
             "font_weight": null
           },
+          // 括号标点
           "punctuation.bracket": {
             "background_color": null,
             "color": "#957FB8",
             "font_style": null,
             "font_weight": null
           },
+          // JSX 括号标点
           "punctuation.bracket.jsx": {
             "background_color": null,
             "color": "#9CABCA",
             "font_style": null,
             "font_weight": null
           },
+          // 分隔符标点
           "punctuation.delimiter": {
             "background_color": null,
             "color": "#9CABCA",
             "font_style": null,
             "font_weight": null
           },
+          // JSX 分隔符标点
           "punctuation.delimiter.jsx": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
+          // 列表标记
           "punctuation.list_marker": {
             "background_color": null,
             "color": "#9CABCA",
             "font_style": null,
             "font_weight": null
           },
+          // 特殊标点
           "punctuation.special": {
             "background_color": null,
-            "color": "#E6C384",
+            "color": "#9CABCA",
             "font_style": null,
             "font_weight": null
           },
-          "punctuation.special.symbol": {
-            "background_color": null,
-            "color": "#E82424",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 字符串字面量
           "string": {
             "background_color": null,
             "color": "#98BB6C",
             "font_style": null,
             "font_weight": null
           },
-          "string.escape": {
-            "background_color": null,
-            "color": "#7FB4CA",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 正则表达式
           "string.regex": {
             "background_color": null,
-            "color": "#C0A36E",
+            "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
-          "string.special": {
-            "background_color": null,
-            "color": "#7FB4CA",
-            "font_style": null,
-            "font_weight": null
-          },
-          "string.special.symbol": {
-            "background_color": null,
-            "color": "#FF5D62",
-            "font_style": null,
-            "font_weight": null
-          },
-          "string.special.uri": {
-            "background_color": null,
-            "color": "#6A9589",
-            "font_style": null,
-            "font_weight": null
-          },
+          // HTML/XML 标签
           "tag": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
+          // JSX 组件标签
           "tag.component.jsx": {
             "background_color": null,
             "color": "#7AA89F",
             "font_style": null,
             "font_weight": null
           },
-          "tag.doctype": {
-            "background_color": null,
-            "color": "#957FB8",
-            "font_style": null,
-            "font_weight": null
-          },
+          // JSX 原生标签
           "tag.jsx": {
             "background_color": null,
             "color": "#E6C384",
             "font_style": null,
             "font_weight": null
           },
+          // JSX 文本内容
           "text.jsx": {
             "background_color": null,
             "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 文字字面量
           "text.literal": {
             "background_color": null,
             "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
+          // 标题/标题文字
           "title": {
             "background_color": null,
             "color": "#7E9CD8",
             "font_style": null,
             "font_weight": null
           },
+          // 类型名
           "type": {
             "background_color": null,
             "color": "#7AA89F",
             "font_style": null,
             "font_weight": null
           },
+          // 内置类型
           "type.builtin": {
             "background_color": null,
             "color": "#7AA89F",
             "font_style": null,
             "font_weight": null
           },
-          "type.class": {
-            "background_color": null,
-            "color": "#7AA89F",
-            "font_style": null,
-            "font_weight": null
-          },
-          "type.interface": {
-            "background_color": null,
-            "color": "#7AA89F",
-            "font_style": null,
-            "font_weight": null
-          },
-          "type.module": {
-            "background_color": null,
-            "color": "#DCA561",
-            "font_style": null,
-            "font_weight": null
-          },
-          "type.namespace": {
-            "background_color": null,
-            "color": "#DCA561",
-            "font_style": null,
-            "font_weight": null
-          },
-          "type.super": {
-            "background_color": null,
-            "color": "#DCA561",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 变量名
           "variable": {
             "background_color": null,
-            "color": "#B8B4D0",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
-          "variable.export": {
+          // 内置变量（如 this/self）
+          "variable.builtin": {
             "background_color": null,
-            "color": "#FF5D62",
+            "color": "#E46876",
             "font_style": null,
             "font_weight": null
           },
-          "variable.import": {
-            "background_color": null,
-            "color": "#FF5D62",
-            "font_style": null,
-            "font_weight": null
-          },
-          "variable.language": {
-            "background_color": null,
-            "color": "#FF5D62",
-            "font_style": null,
-            "font_weight": null
-          },
-          "variable.member": {
-            "background_color": null,
-            "color": "#B8B4D0",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 函数参数
           "variable.parameter": {
             "background_color": null,
-            "color": "#B8B4D0",
+            "color": "#DCD7BA",
             "font_style": null,
             "font_weight": null
           },
-          "variable.readonly": {
-            "background_color": null,
-            "color": "#B8B4D0",
-            "font_style": null,
-            "font_weight": null
-          },
+          // 特殊变量
           "variable.special": {
             "background_color": null,
-            "color": "#FF5D62",
+            "color": "#E46876",
             "font_style": null,
             "font_weight": null
           },
+          // 枚举变体
           "variant": {
             "background_color": null,
-            "color": "#E82424",
+            "color": "#FFA066",
             "font_style": null,
             "font_weight": null
           }
-        },
-        "tab_bar.background": "#1F1F28",
-        "tab.active_background": "#2A2A37",
-        "tab.inactive_background": "#1F1F28",
-        "terminal.ansi.background": null,
-        "terminal.ansi.black": "#16161D",
-        "terminal.ansi.blue": "#7E9CD8",
-        "terminal.ansi.bright_black": "#727169",
-        "terminal.ansi.bright_blue": "#7FB4CA",
-        "terminal.ansi.bright_cyan": "#7AA89F",
-        "terminal.ansi.bright_green": "#98BB6C",
-        "terminal.ansi.bright_magenta": "#938AA9",
-        "terminal.ansi.bright_red": "#C34043",
-        "terminal.ansi.bright_white": "#DCD7BA",
-        "terminal.ansi.bright_yellow": "#E6C384",
-        "terminal.ansi.cyan": "#6A9589",
-        "terminal.ansi.dim_black": null,
-        "terminal.ansi.dim_blue": null,
-        "terminal.ansi.dim_cyan": null,
-        "terminal.ansi.dim_green": null,
-        "terminal.ansi.dim_magenta": null,
-        "terminal.ansi.dim_red": null,
-        "terminal.ansi.dim_white": null,
-        "terminal.ansi.dim_yellow": null,
-        "terminal.ansi.green": "#76946A",
-        "terminal.ansi.magenta": "#957FB8",
-        "terminal.ansi.red": "#C34043",
-        "terminal.ansi.white": "#C8C093",
-        "terminal.ansi.yellow": "#C0A36E",
-        "terminal.background": "#1F1F28",
-        "terminal.bright_foreground": "#DCD7BA",
-        "terminal.dim_foreground": "#727169",
-        "terminal.foreground": "#DCD7BA",
-        "text": "#DCD7BA",
-        "text.accent": "#7E9CD8",
-        "text.disabled": "#4F4F66",
-        "text.muted": "#DCD7BAB2",
-        "text.placeholder": "#727169",
-        "title_bar.background": "#363646",
-        "title_bar.inactive_background": "#1F1F28",
-        "toolbar.background": "#1F1F28"
+        }
       }
     }
   ]

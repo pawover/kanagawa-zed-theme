@@ -1,0 +1,409 @@
+/* ═══════════════════════════════════════════════════════════════
+   CSS Playground — Kanagawa Theme Preview
+   ═══════════════════════════════════════════════════════════════ */
+
+@charset "utf-8";
+
+/* ── Imports ──────────────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import "./variables.css" screen and (min-width: 768px);
+
+/* ── Custom Properties ────────────────────────────────────────── */
+:root {
+  --color-bg: #1F1F28;
+  --color-fg: #DCD7BA;
+  --color-primary: #7E9CD8;
+  --color-accent: #FF9E3B;
+  --color-success: #76946A;
+  --color-error: #C34043;
+  --color-warning: #DCA561;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "Fira Code", "Cascadia Code", monospace;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.25);
+  --transition: 200ms ease-in-out;
+}
+
+/* ── Element Selectors ────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-fg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-block: 1em 0.5em;
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); }
+h3 { font-size: 1.5rem; }
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition);
+
+  &:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+p {
+  margin-block: 0 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Class Selectors ──────────────────────────────────────────── */
+.container {
+  width: min(1200px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.card {
+  background: #2A2A37;
+  border: 1px solid #363646;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition), transform var(--transition);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+}
+
+.btn--danger {
+  background: var(--color-error);
+  color: #fff;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-fg);
+  border: 1px solid #363646;
+
+  &:hover:not(:disabled) {
+    background: #363646;
+  }
+}
+
+/* ── Pseudo-elements & Pseudo-classes ─────────────────────────── */
+.input {
+  width: 100%;
+  padding: 0.5em 0.75em;
+  background: #1F1F28;
+  border: 1px solid #363646;
+  border-radius: var(--radius-sm);
+  color: var(--color-fg);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color var(--transition);
+
+  &::placeholder {
+    color: #54546D;
+    opacity: 1;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(126, 156, 216, 0.25);
+  }
+
+  &:user-invalid {
+    border-color: var(--color-error);
+  }
+
+  &:read-only {
+    background: #2A2A37;
+    cursor: default;
+  }
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid #363646;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::marker {
+      color: var(--color-accent);
+    }
+  }
+}
+
+/* ── Media Queries ────────────────────────────────────────────── */
+@media (width <= 768px) {
+  .container {
+    width: 100% - 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #FFFFFF;
+    --color-fg: #1F1F28;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Keyframes & Animations ───────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.5; }
+}
+
+.animate--fade {
+  animation: fadeIn 300ms ease-out;
+}
+
+.animate--spin {
+  animation: spin 1s linear infinite;
+}
+
+.animate--pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ── Attribute Selectors ──────────────────────────────────────── */
+[hidden] {
+  display: none !important;
+}
+
+[aria-disabled="true"] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1F1F28;
+  --color-fg: #DCD7BA;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  /* shared input styles */
+}
+
+a[href^="https"]::after {
+  content: " ↗";
+}
+
+/* ── Combinators & Nesting ────────────────────────────────────── */
+nav ul {
+  display: flex;
+  gap: var(--spacing-md);
+  list-style: none;
+}
+
+nav li > a {
+  padding: var(--spacing-sm);
+}
+
+main > section + section {
+  margin-top: var(--spacing-xl);
+}
+
+h2 + p {
+  font-size: 1.125rem;
+  color: #54546D;
+}
+
+/* ── Has / Not / Where / Is ───────────────────────────────────── */
+.parent:has(.child) {
+  border: 1px solid var(--color-primary);
+}
+
+.card:not(:last-child) {
+  margin-bottom: var(--spacing-md);
+}
+
+:where(h1, h2, h3, h4) {
+  text-wrap: balance;
+}
+
+:is(.btn, .input):focus-visible {
+  outline: 2px solid var(--color-accent);
+}
+
+/* ── Layers ───────────────────────────────────────────────────── */
+@layer reset {
+  * { margin: 0; padding: 0; }
+}
+
+@layer base {
+  body { font-family: var(--font-sans); }
+}
+
+@layer components {
+  .card { border-radius: var(--radius-md); }
+}
+
+/* ── Container Queries ────────────────────────────────────────── */
+@container sidebar (width > 300px) {
+  .widget { display: grid; gap: 1rem; }
+}
+
+/* ── Specificity Demo ─────────────────────────────────────────── */
+#app .widget[data-active] {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* ── Math Functions ───────────────────────────────────────────── */
+.sidebar {
+  width: calc(100% - var(--sidebar-width, 250px));
+  min-height: calc(100dvh - var(--header-height));
+}
+
+.fluid {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  width: min(100%, 1200px);
+  padding: max(1rem, 2vw);
+}
+
+/* ── Colors ───────────────────────────────────────────────────── */
+.gradient {
+  background: linear-gradient(
+    135deg,
+    #7E9CD8 0%,
+    #7AA89F 50%,
+    #FF9E3B 100%
+  );
+}
+
+.kanagawa-wave {
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    rgba(122, 168, 159, 0.1) 2px,
+    rgba(122, 168, 159, 0.1) 4px
+  );
+}
+
+/* ── Filter & Backdrop ────────────────────────────────────────── */
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.modal {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+}

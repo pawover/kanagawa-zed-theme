@@ -1,0 +1,414 @@
+<!-- ═══════════════════════════════════════════════════════════════
+     Angular Playground — Kanagawa Theme Preview
+     ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ── Standalone Component ──────────────────────────────────── -->
+<app-root>
+  <header class="toolbar">
+    <span>{{ title }} v{{ version }}</span>
+    <nav>
+      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a routerLink="/users" routerLinkActive="active">Users</a>
+      <a routerLink="/settings" routerLinkActive="active">Settings</a>
+    </nav>
+    <button (click)="toggleTheme()">Toggle Theme</button>
+  </header>
+
+  <!-- ── Router Outlet ────────────────────────────────────────── -->
+  <main>
+    <router-outlet />
+  </main>
+
+  <!-- ── Interpolation & Expressions ─────────────────────────── -->
+  <section>
+    <h1>{{ pageTitle }}</h1>
+    <p>{{ greeting }} {{ currentUser?.name }}</p>
+    <p>{{ 1 + 2 + 3 }}</p>
+    <p>{{ items.length > 0 ? 'Has items' : 'Empty' }}</p>
+    <p>{{ value | currency:'USD':'symbol':'1.2-2' }}</p>
+    <p>{{ date | date:'fullDate' | uppercase }}</p>
+  </section>
+
+  <!-- ── Property Binding ────────────────────────────────────── -->
+  <section>
+    <img [src]="avatarUrl" [alt]="userName" [width]="64" [height]="64" />
+    <button [disabled]="isLoading" [class.spinning]="isLoading">
+      {{ isLoading ? 'Loading...' : 'Submit' }}
+    </button>
+    <div [style.background-color]="bgColor" [style.width.px]="width">
+      Styled div
+    </div>
+    <input [value]="name" />
+    <a [href]="linkUrl" [target]="'_blank'" [rel]="'noopener'">Link</a>
+    <progress [value]="progress" [max]="100"></progress>
+  </section>
+
+  <!-- ── Event Binding ───────────────────────────────────────── -->
+  <section>
+    <button (click)="handleClick($event)">Click</button>
+    <input (input)="onInput($event)" (focus)="onFocus()" (blur)="onBlur()" />
+    <input (keyup.enter)="submit()" (keyup.escape)="cancel()" />
+    <div (mousedown)="onMouseDown()" (mouseup)="onMouseUp()">
+      Mouse events
+    </div>
+    <form (ngSubmit)="onSubmit($event)" (reset)="onReset()">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- ── Two-way Binding ─────────────────────────────────────── -->
+  <section>
+    <input [(ngModel)]="name" />
+    <input [(ngModel)]="user.email" />
+    <input [ngModel]="value" (ngModelChange)="onValueChange($event)" />
+    <my-component [(value)]="parentValue" />
+    <my-component [(value)]="parentValue" [(checked)]="isChecked" />
+  </section>
+
+  <!-- ── Control Flow (@if / @for / @switch) ─────────────────── -->
+  <section>
+    @if (isLoggedIn) {
+      <p>Welcome, {{ username }}!</p>
+    } @else if (isLoading) {
+      <p>Loading...</p>
+    } @else {
+      <button (click)="login()">Log in</button>
+    }
+
+    @for (item of items; track item.id; let i = $index, f = $first, l = $last, e = $even, o = $odd, c = $count) {
+      <div
+        [class.first]="f"
+        [class.last]="l"
+        [class.even]="e"
+        [class.odd]="o"
+        (click)="selectItem(item)"
+      >
+        <span>{{ i + 1 }}/{{ c }}.</span>
+        <span>{{ item.name }}</span>
+      </div>
+    } @empty {
+      <p>No items found.</p>
+    }
+
+    @switch (status) {
+      @case ('active') {
+        <span class="badge success">Active</span>
+      }
+      @case ('pending') {
+        <span class="badge warning">Pending</span>
+      }
+      @case ('error') {
+        <span class="badge danger">Error</span>
+      }
+      @default {
+        <span class="badge">Unknown</span>
+      }
+    }
+  </section>
+
+  <!-- ── Structural Directives (legacy) ──────────────────────── -->
+  <section>
+    <div *ngIf="isVisible; else hiddenBlock">
+      Visible content
+    </div>
+    <ng-template #hiddenBlock>
+      <p>Hidden fallback</p>
+    </ng-template>
+
+    <ul>
+      <li *ngFor="let item of items; index as i; first as f; last as l; even as e">
+        {{ i }}: {{ item.name }}
+        <span *ngIf="f">(first)</span>
+        <span *ngIf="l">(last)</span>
+      </li>
+    </ul>
+
+    <div [ngSwitch]="role">
+      <p *ngSwitchCase="'admin'">Admin panel</p>
+      <p *ngSwitchCase="'user'">User profile</p>
+      <p *ngSwitchDefault>Guest view</p>
+    </div>
+  </section>
+
+  <!-- ── Pipes ───────────────────────────────────────────────── -->
+  <section>
+    <p>{{ date | date:'yyyy-MM-dd HH:mm:ss' }}</p>
+    <p>{{ price | number:'1.2-2' }}</p>
+    <p>{{ text | slice:0:50 }}</p>
+    <p>{{ obj | json }}</p>
+    <p>{{ percent | percent:'1.1-2' }}</p>
+    <p>{{ asyncData$ | async }}</p>
+    <p>{{ promise | async }}</p>
+    <p>{{ user | keyvalue | json }}</p>
+    <p>{{ 'Hello' | i18nSelect:genderMap }}</p>
+    <p>{{ items | slice:0:10 | filter:'active' | sort:'name' }}</p>
+  </section>
+
+  <!-- ── Attribute Directives ────────────────────────────────── -->
+  <section>
+    <div [class.active]="isActive" [class.hidden]="!isVisible">
+      Class binding
+    </div>
+
+    <div [class]="{ active: isActive, error: hasError, disabled: isDisabled }">
+      Multiple classes
+    </div>
+
+    <div [style]="{ color: textColor, fontSize: fontSize + 'px', backgroundColor: bg }">
+      Inline styles
+    </div>
+
+    <div [attr.data-id]="itemId" [attr.aria-label]="ariaLabel">
+      Attribute binding
+    </div>
+
+    <!-- Custom directive -->
+    <div appHighlight [highlightColor]="'#FF9E3B'" appTooltip="Tooltip text">
+      Custom directive
+    </div>
+  </section>
+
+  <!-- ── Template Reference Variables ─────────────────────────── -->
+  <section>
+    <input #myInput (keyup.enter)="onInputSubmit(myInput.value)" />
+    <p>Input value: {{ myInput.value }}</p>
+
+    <form #myForm="ngForm">
+      <input name="email" ngModel required />
+      <button [disabled]="myForm.invalid">Submit</button>
+    </form>
+
+    <my-component #compRef></my-component>
+    <button (click)="compRef.reset()">Reset child</button>
+  </section>
+
+  <!-- ── Content Projection ──────────────────────────────────── -->
+  <section>
+    <app-card>
+      <p header>Card header</p>
+      <p>Default content projection</p>
+      <p footer>Card footer</p>
+    </app-card>
+
+    <app-card>
+      <ng-container ngProjectAs="[header]">Header</ng-container>
+      <ng-container ngProjectAs="[footer]">Footer</ng-container>
+    </app-card>
+
+    <app-card>
+      <div header>Header</div>
+      <div footer>Footer</div>
+    </app-card>
+  </section>
+
+  <!-- ── Deferrable Views ────────────────────────────────────── -->
+  <section>
+    @defer (on viewport; prefetch on idle) {
+      <heavy-component />
+    } @loading (minimum 500ms) {
+      <p>Loading...</p>
+    } @placeholder {
+      <p>Placeholder</p>
+    } @error {
+      <p>Failed to load</p>
+    }
+
+    @defer (on interaction(triggerBtn)) {
+      <comments-section />
+    }
+
+    @defer (on hover; prefetch on immediate) {
+      <tooltip-content />
+    }
+
+    @defer (when isVisible) {
+      <lazy-component />
+    }
+  </section>
+
+  <!-- ── Reactive Forms ──────────────────────────────────────── -->
+  <section>
+    <form [formGroup]="userForm" (ngSubmit)="saveUser()">
+      <label>
+        Name
+        <input formControlName="name" />
+      </label>
+      @if (userForm.get('name')?.invalid && userForm.get('name')?.touched) {
+        <p class="error">Name is required</p>
+      }
+
+      <label>
+        Email
+        <input formControlName="email" type="email" />
+      </label>
+      @if (userForm.get('email')?.hasError('email')) {
+        <p class="error">Invalid email</p>
+      }
+
+      <div formGroupName="address">
+        <label>Street <input formControlName="street" /></label>
+        <label>City <input formControlName="city" /></label>
+      </div>
+
+      <label>
+        Type
+        <select formControlName="type">
+          <option value="admin">Admin</option>
+          <option value="user">User</option>
+        </select>
+      </label>
+
+      <label>
+        Terms
+        <input type="checkbox" formControlName="terms" />
+      </label>
+
+      <button type="submit" [disabled]="userForm.invalid">Save</button>
+    </form>
+
+    <p>Form value: {{ userForm.value | json }}</p>
+    <p>Form valid: {{ userForm.valid }}</p>
+    <p>Form dirty: {{ userForm.dirty }}</p>
+  </section>
+
+  <!-- ── Template-driven Forms ───────────────────────────────── -->
+  <section>
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+      <input
+        name="email"
+        ngModel
+        #email="ngModel"
+        required
+        email
+        minlength="3"
+      />
+      @if (email.invalid && email.touched) {
+        @if (email.hasError('required')) {
+          <p>Email required</p>
+        }
+        @if (email.hasError('email')) {
+          <p>Invalid format</p>
+        }
+      }
+
+      <input
+        name="password"
+        ngModel
+        #password="ngModel"
+        required
+        minlength="8"
+      />
+
+      <label>
+        <input type="checkbox" name="remember" ngModel #remember="ngModel" />
+        Remember me
+      </label>
+
+      <button type="submit" [disabled]="loginForm.invalid">Login</button>
+    </form>
+  </section>
+
+  <!-- ── Signals ─────────────────────────────────────────────── -->
+  <section>
+    <p>Count: {{ count() }}</p>
+    <p>Doubled: {{ doubled() }}</p>
+    <p>Name: {{ userName() }}</p>
+    <p>Full name: {{ fullName() }}</p>
+    <p>Items count: {{ itemsSignal().length }}</p>
+
+    <button (click)="increment()">+</button>
+    <button (click)="decrement()">-</button>
+    <button (click)="resetSignal()">Reset</button>
+
+    <!-- Signal-based template -->
+    @let greeting = 'Hello, ' + userName();
+    <p>{{ greeting }}</p>
+
+    @let itemCount = itemsSignal().length;
+    <p>{{ itemCount }} item(s)</p>
+  </section>
+
+  <!-- ── RxJS with Async Pipe ────────────────────────────────── -->
+  <section>
+    <p>Timer: {{ timer$ | async }}</p>
+    <p>Users: {{ (users$ | async)?.length }}</p>
+
+    @for (user of users$ | async; track user.id) {
+      <div>{{ user.name }}</div>
+    }
+
+    <div *ngIf="data$ | async as data">
+      <p>{{ data.title }}</p>
+      <p>{{ data.body }}</p>
+    </div>
+  </section>
+
+  <!-- ── @Input / @Output ────────────────────────────────────── -->
+  <app-child
+    [name]="userName()"
+    [data]="childData"
+    [config]="{ theme: 'dark', size: 'large' }"
+    (valueChange)="onChildChange($event)"
+    (action)="handleAction($event)"
+  >
+    Projected content
+  </app-child>
+
+  <!-- ── NgClass / NgStyle ───────────────────────────────────── -->
+  <section>
+    <div
+      [ngClass]="['card', variant, { selected: isSelected, disabled: isDisabled }]"
+      [ngStyle]="{ 'max-width': '400px', '--custom-var': themeColor }"
+    >
+      NgClass and NgStyle example
+    </div>
+  </section>
+
+  <!-- ── Animations ──────────────────────────────────────────── -->
+  <section>
+    <div [@fadeIn]="isVisible" (@fadeIn.done)="animationDone()">
+      Animated element
+    </div>
+
+    <div [@listAnimation]="items.length">
+      @for (item of items; track item) {
+        <div @itemAnimation>{{ item }}</div>
+      }
+    </div>
+
+    <div @slideInOut>
+      <p>Slide animation</p>
+    </div>
+  </section>
+
+  <!-- ── Accessibility ───────────────────────────────────────── -->
+  <section>
+    <button
+      aria-label="Close dialog"
+      aria-expanded="isOpen"
+      aria-controls="dialog-1"
+      role="tab"
+      tabindex="0"
+      (keydown.arrowDown)="focusNext()"
+    >
+      <span aria-hidden="true">✕</span>
+    </button>
+
+    <div
+      role="alert"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      @if (errorMessage) {
+        <p>{{ errorMessage }}</p>
+      }
+    </div>
+  </section>
+
+  <!-- ── i18n ────────────────────────────────────────────────── -->
+  <section>
+    <p i18n>This text is translatable</p>
+    <p i18n="greeting|Greeting message@@greetingText">Hello</p>
+    <p>{{ count }} {{ count === 1 ? 'item' : 'items' }}</p>
+  </section>
+</app-root>

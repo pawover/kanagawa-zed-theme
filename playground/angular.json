@@ -1,0 +1,8994 @@
+[
+  [
+    {
+      "text": "<!-- ═══════════════════════════════════════════════════════════════",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "     Angular Playground — Kanagawa Theme Preview",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "     ═══════════════════════════════════════════════════════════════ -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "<!-- ── Standalone Component ──────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-root",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "header",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"toolbar\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ title }} v{{ version }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "nav",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLink",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"/dashboard\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLinkActive",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"active\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Dashboard",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLink",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"/users\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLinkActive",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"active\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Users",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLink",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"/settings\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "routerLinkActive",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"active\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Settings",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "nav",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"toggleTheme()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Toggle Theme",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "header",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Router Outlet ────────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "main",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "router-outlet",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "main",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Interpolation & Expressions ─────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "h1",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ pageTitle }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "h1",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ greeting }} {{ currentUser?.name }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ 1 + 2 + 3 }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ items.length ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " 0 ? ",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": "Has items",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": " : ",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": "Empty",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": " }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ value | currency:'USD':'symbol':'1.2-2' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ date | date:'fullDate' | uppercase }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Property Binding ────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "img",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[src]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"avatarUrl\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[alt]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"userName\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[width]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"64\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[height]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"64\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[disabled]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isLoading\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[class.spinning]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isLoading\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      {{ isLoading ? 'Loading...' : 'Submit' }}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[style.background-color]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"bgColor\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[style.width.px]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"width\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Styled div",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[value]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"name\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[href]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"linkUrl\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[target]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"'_blank'\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[rel]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"'noopener'\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Link",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "a",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "progress",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[value]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"progress\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[max]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"100\"",
+      "highlight": "string"
+    },
+    {
+      "text": "></",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "progress",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Event Binding ───────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"handleClick($event)\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Click",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(input)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onInput($event)\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(focus)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onFocus()\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(blur)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onBlur()\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(keyup.enter)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"submit()\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(keyup.escape)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"cancel()\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(mousedown)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onMouseDown()\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(mouseup)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onMouseUp()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Mouse events",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(ngSubmit)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onSubmit($event)\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(reset)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onReset()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"submit\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Submit",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Two-way Binding ─────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[(ngModel)]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"name\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[(ngModel)]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"user.email\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[ngModel]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"value\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(ngModelChange)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onValueChange($event)\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "my-component",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[(value)]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"parentValue\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "my-component",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[(value)]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"parentValue\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[(checked)]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isChecked\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Control Flow (@if / @for / @switch) ─────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    @if (isLoggedIn) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Welcome, {{ username }}!",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @else if (isLoading) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Loading...",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @else {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"login()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Log in",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @for (item of items; track item.id; let i = $index, f = $first, l = $last, e = $even, o = $odd, c = $count) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "[class.first]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"f\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "[class.last]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"l\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "[class.even]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"e\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "[class.odd]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"o\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"selectItem(item)\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ i + 1 }}/{{ c }}.",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ item.name }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @empty {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "No items found.",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @switch (status) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      @case ('active') {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"badge success\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Active",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      @case ('pending') {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"badge warning\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Pending",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      @case ('error') {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"badge danger\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Error",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      @default {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"badge\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Unknown",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Structural Directives (legacy) ──────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngIf",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isVisible; else hiddenBlock\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Visible content",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-template",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#hiddenBlock",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Hidden fallback",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-template",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ul",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "li",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngFor",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"let item of items; index as i; first as f; last as l; even as e\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        {{ i }}: {{ item.name }}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngIf",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"f\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "(first)",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngIf",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"l\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "(last)",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "li",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ul",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[ngSwitch]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"role\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngSwitchCase",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"'admin'\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Admin panel",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngSwitchCase",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"'user'\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "User profile",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngSwitchDefault",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Guest view",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Pipes ───────────────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ date | date:'yyyy-MM-dd HH:mm:ss' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ price | number:'1.2-2' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ text | slice:0:50 }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ obj | json }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ percent | percent:'1.1-2' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ asyncData$ | async }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ promise | async }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ user | keyvalue | json }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ 'Hello' | i18nSelect:genderMap }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ items | slice:0:10 | filter:'active' | sort:'name' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Attribute Directives ────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[class.active]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isActive\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[class.hidden]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"!isVisible\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Class binding",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[class]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"{ active: isActive, error: hasError, disabled: isDisabled }\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Multiple classes",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[style]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"{ color: textColor, fontSize: fontSize + 'px', backgroundColor: bg }\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Inline styles",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[attr.data-id]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"itemId\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[attr.aria-label]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ariaLabel\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Attribute binding",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- Custom directive -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "appHighlight",
+      "highlight": "attribute"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[highlightColor]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"'#FF9E3B'\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "appTooltip",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"Tooltip text\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Custom directive",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Template Reference Variables ─────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#myInput",
+      "highlight": "attribute"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(keyup.enter)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onInputSubmit(myInput.value)\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Input value: {{ myInput.value }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#myForm",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ngForm\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "name",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"email\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "ngModel",
+      "highlight": "attribute"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "required",
+      "highlight": "attribute"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[disabled]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"myForm.invalid\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Submit",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "my-component",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#compRef",
+      "highlight": "attribute"
+    },
+    {
+      "text": "></",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "my-component",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"compRef.reset()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Reset child",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Content Projection ──────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "header",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Card header",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Default content projection",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "footer",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Card footer",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-container",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "ngProjectAs",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"[header]\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Header",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-container",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-container",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "ngProjectAs",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"[footer]\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Footer",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "ng-container",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "header",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Header",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "footer",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Footer",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-card",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Deferrable Views ────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    @defer (on viewport; prefetch on idle) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "heavy-component",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @loading (minimum 500ms) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Loading...",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @placeholder {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Placeholder",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    } @error {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Failed to load",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @defer (on interaction(triggerBtn)) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "comments-section",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @defer (on hover; prefetch on immediate) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "tooltip-content",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @defer (when isVisible) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "lazy-component",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Reactive Forms ──────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[formGroup]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"userForm\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(ngSubmit)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"saveUser()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        Name",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"name\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      @if (userForm.get('name')?.invalid && userForm.get(",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": "name",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": ")?.touched) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"error\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Name is required",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        Email",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"email\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"email\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      @if (userForm.get('email')?.hasError('email')) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"error\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Invalid email",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formGroupName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"address\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Street ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"street\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/></",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "City ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"city\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/></",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        Type",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "select",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"type\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "          ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "option",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "value",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"admin\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Admin",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "option",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "          ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "option",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "value",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"user\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "User",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "option",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "select",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        Terms",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"checkbox\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "formControlName",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"terms\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"submit\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[disabled]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"userForm.invalid\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Save",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Form value: {{ userForm.value | json }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Form valid: {{ userForm.valid }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Form dirty: {{ userForm.dirty }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Template-driven Forms ───────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#loginForm",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ngForm\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(ngSubmit)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"login(loginForm)\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "name",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"email\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "ngModel",
+      "highlight": "attribute"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "#email",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ngModel\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "required",
+      "highlight": "attribute"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "email",
+      "highlight": "attribute"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "minlength",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"3\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      @if (email.invalid && email.touched) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        @if (email.hasError(",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": "required",
+      "highlight": null
+    },
+    {
+      "text": "'",
+      "highlight": "string"
+    },
+    {
+      "text": ")) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "          ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Email required",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        @if (email.hasError('email')) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "          ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Invalid format",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "name",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"password\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "ngModel",
+      "highlight": "attribute"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "#password",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ngModel\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "required",
+      "highlight": "attribute"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "minlength",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"8\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "input",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"checkbox\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "name",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"remember\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "ngModel",
+      "highlight": "attribute"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "#remember",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"ngModel\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "/>",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "        Remember me",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "label",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "type",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"submit\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[disabled]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"loginForm.invalid\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Login",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "form",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Signals ─────────────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Count: {{ count() }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Doubled: {{ doubled() }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Name: {{ userName() }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Full name: {{ fullName() }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Items count: {{ itemsSignal().length }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"increment()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "+",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"decrement()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "-",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(click)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"resetSignal()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Reset",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- Signal-based template -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "    @let greeting = 'Hello, ' + userName();",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ greeting }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @let itemCount = itemsSignal().length;",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ itemCount }} item(s)",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── RxJS with Async Pipe ────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Timer: {{ timer$ | async }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Users: {{ (users$ | async)?.length }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    @for (user of users$ | async; track user.id) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ user.name }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*ngIf",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"data$ | async as data\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ data.title }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ data.body }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── @Input / @Output ────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-child",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "[name]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"userName()\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "[data]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"childData\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "[config]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"{ theme: 'dark', size: 'large' }\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "(valueChange)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"onChildChange($event)\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "(action)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"handleAction($event)\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    Projected content",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-child",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── NgClass / NgStyle ───────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "[ngClass]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"['card', variant, { selected: isSelected, disabled: isDisabled }]\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "[ngStyle]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"{ 'max-width': '400px', '--custom-var': themeColor }\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      NgClass and NgStyle example",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Animations ──────────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[@fadeIn]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isVisible\"",
+      "highlight": "string"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(@fadeIn.done)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"animationDone()\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      Animated element",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[@listAnimation]",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"items.length\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      @for (item of items; track item) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "@itemAnimation",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ item }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "@slideInOut",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Slide animation",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── Accessibility ───────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "aria-label",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"Close dialog\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "aria-expanded",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"isOpen\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "aria-controls",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"dialog-1\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "role",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"tab\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "tabindex",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"0\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "(keydown.arrowDown)",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"focusNext()\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "aria-hidden",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"true\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "✕",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "button",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "role",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"alert\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "aria-live",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"polite\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "      ",
+      "highlight": null
+    },
+    {
+      "text": "aria-atomic",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"true\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      @if (errorMessage) {",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "        ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ errorMessage }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "      }",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<!-- ── i18n ────────────────────────────────────────────────── -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "i18n",
+      "highlight": "attribute"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "This text is translatable",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "i18n",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"greeting|Greeting message@@greetingText\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Hello",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "{{ count }} {{ count === 1 ? 'item' : 'items' }}",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "section",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "app-root",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ]
+]

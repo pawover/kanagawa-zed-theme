@@ -1,0 +1,4826 @@
+[
+  [
+    {
+      "text": "# Comments",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "<!-- HTML comment -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "[//]: ",
+      "highlight": "link_text"
+    },
+    {
+      "text": "#",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " (This is a Markdown comment)",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "<!-- prettier-ignore -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "<!-- markdownlint-disable MD013 -->",
+      "highlight": "comment"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# Heading 1",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "## Heading 2",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "### Heading 3",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "#### Heading 4",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "##### Heading 5",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "###### Heading 6",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Heading (setext)",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "================",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Heading (setext) alt",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "--------------------",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# Heading with ",
+      "highlight": "title"
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": " span",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "## Heading with ",
+      "highlight": "title"
+    },
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": " and ",
+      "highlight": "title"
+    },
+    {
+      "text": "*italic*",
+      "highlight": "emphasis"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Emphasis & Spans ─────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "*italic*",
+      "highlight": "emphasis"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "_italic_",
+      "highlight": "emphasis"
+    }
+  ],
+  [
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "__bold__",
+      "highlight": "emphasis.strong"
+    }
+  ],
+  [
+    {
+      "text": "*",
+      "highlight": "emphasis"
+    },
+    {
+      "text": "**bold italic**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": "*",
+      "highlight": "emphasis"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "_",
+      "highlight": "emphasis"
+    },
+    {
+      "text": "__bold italic__",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": "_",
+      "highlight": "emphasis"
+    }
+  ],
+  [
+    {
+      "text": "~~strikethrough~~",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "==highlight==",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "`inline code`",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "`code with $special chars`",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "``double-backtick ` code``",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Paragraphs & Line Breaks ─────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "This is a paragraph with ",
+      "highlight": null
+    },
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": ", ",
+      "highlight": null
+    },
+    {
+      "text": "*italic*",
+      "highlight": "emphasis"
+    },
+    {
+      "text": ", ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": ", and a\\",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "line break (backslash). This is a soft break (two trailing spaces followed by newline).  ",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "This is a hard break.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Lists ────────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Unordered:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Item one",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Item two",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Nested item",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "  ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Another nested",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Deeply nested",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Item three",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "Ordered:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "1. ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "First step",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "2. ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Second step",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "   ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "1. ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Sub-step a",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "   ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "2. ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Sub-step b",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "3. ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Third step",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "Task lists:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "[ ] Incomplete task",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "[x] Completed task",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "[X] Checked task",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "[ ] Task with ",
+      "highlight": null
+    },
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": " and ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "Definition list:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Term A",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ": Definition of term A",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Term B",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ": First definition",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ": Second definition",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Links & Images ───────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[Basic link]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(https://example.com)",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "[Link with title]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(https://example.com",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " \"Example Site\"",
+      "highlight": "link_text"
+    },
+    {
+      "text": ")",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "[Relative link]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(../playground/javascript.jsx)",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "[Reference link][ref]",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "[Ref shortcut][]",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "[collapsed][]",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[ref]: ",
+      "highlight": "link_text"
+    },
+    {
+      "text": "https://example.com",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " \"Reference\"",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "[Ref shortcut]: ",
+      "highlight": "link_text"
+    },
+    {
+      "text": "https://example.com",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "[collapsed]: ",
+      "highlight": "link_text"
+    },
+    {
+      "text": "https://example.com",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "<https://autolink.com>",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "<mailto:user@example.com>",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "<user@example.com>",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "![Alt text]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(https://example.com/image.png)",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "![Image with title]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(https://example.com/image.png",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " \"Image Title\"",
+      "highlight": "link_text"
+    },
+    {
+      "text": ")",
+      "highlight": "link_uri"
+    }
+  ],
+  [
+    {
+      "text": "![Reference image][img-ref]",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[img-ref]: ",
+      "highlight": "link_text"
+    },
+    {
+      "text": "https://example.com/ref.png",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " \"Reference Image\"",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Code Blocks ──────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Inline: use ",
+      "highlight": null
+    },
+    {
+      "text": "`Array.map()`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": " or ",
+      "highlight": null
+    },
+    {
+      "text": "`Promise.resolve()`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Indented code block (4 spaces):",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    const greeting = 'hello';",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "console.log($greeting);",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Fenced code block (no language):",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "const data = { key: 'value' };",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "process(data);",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Fenced code block (JavaScript):",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```javascript",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "function",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "debounce",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "fn",
+      "highlight": "variable.parameter"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "delay",
+      "highlight": "variable.parameter"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "let",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "timer",
+      "highlight": "variable"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "return",
+      "highlight": "keyword.control"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "...",
+      "highlight": "operator"
+    },
+    {
+      "text": "args",
+      "highlight": "variable.parameter"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=>",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "clearTimeout",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "timer",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "timer",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "setTimeout",
+      "highlight": "function"
+    },
+    {
+      "text": "(()",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=>",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "fn",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "...",
+      "highlight": "operator"
+    },
+    {
+      "text": "args",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "delay",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```typescript",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "interface",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "User",
+      "highlight": "type"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "name",
+      "highlight": "property"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.special"
+    },
+    {
+      "text": " ",
+      "highlight": "type"
+    },
+    {
+      "text": "string",
+      "highlight": "type.builtin"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "age",
+      "highlight": "property"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.special"
+    },
+    {
+      "text": " ",
+      "highlight": "type"
+    },
+    {
+      "text": "number",
+      "highlight": "type.builtin"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```rust",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "fn",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "fibonacci",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "n",
+      "highlight": "variable.parameter"
+    },
+    {
+      "text": ":",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "u32",
+      "highlight": "type.builtin"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "->",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "u32",
+      "highlight": "type.builtin"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "match",
+      "highlight": "keyword.control"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "n",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "0",
+      "highlight": "number"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=>",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "n",
+      "highlight": "variable"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    _ ",
+      "highlight": null
+    },
+    {
+      "text": "=>",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "fibonacci",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "n",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "-",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "+",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "fibonacci",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "n",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "-",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "2",
+      "highlight": "number"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```python",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "def",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "quicksort",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "arr",
+      "highlight": "variable.parameter"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "if",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "len",
+      "highlight": "function.builtin"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "arr",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "<=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "return",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "arr",
+      "highlight": "variable"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "pivot",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "arr",
+      "highlight": "variable"
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "0",
+      "highlight": "number"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "left",
+      "highlight": "variable"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "for",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "in",
+      "highlight": "keyword.operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "arr",
+      "highlight": "variable"
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "if",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "<=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "pivot",
+      "highlight": "variable"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "right",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "for",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "in",
+      "highlight": "keyword.operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "arr",
+      "highlight": "variable"
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "if",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": ">",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "pivot",
+      "highlight": "variable"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "return",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "quicksort",
+      "highlight": "function.call"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "left",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "+",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "[",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "pivot",
+      "highlight": "variable"
+    },
+    {
+      "text": "]",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "+",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "quicksort",
+      "highlight": "function.call"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "right",
+      "highlight": "variable"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```html",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "article",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "h1",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Title",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "h1",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"content\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Hello, world!",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "article",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```css",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ".",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "container ",
+      "highlight": null
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "display",
+      "highlight": "property"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "grid",
+      "highlight": "constant.builtin"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "grid-template-columns",
+      "highlight": "property"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "repeat",
+      "highlight": "function"
+    },
+    {
+      "text": "(",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "3",
+      "highlight": "number"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": "fr",
+      "highlight": "type"
+    },
+    {
+      "text": ")",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "gap",
+      "highlight": "property"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "1",
+      "highlight": "number"
+    },
+    {
+      "text": "rem",
+      "highlight": "type"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```json",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "{",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "\"name\"",
+      "highlight": "property.json_key"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "\"kanagawa-zed\"",
+      "highlight": "string"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "\"version\"",
+      "highlight": "property.json_key"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "\"0.0.2\"",
+      "highlight": "string"
+    },
+    {
+      "text": ",",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "\"private\"",
+      "highlight": "property.json_key"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "true",
+      "highlight": "boolean"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "}",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```bash",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "#!/bin/bash",
+      "highlight": "keyword.directive"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "for",
+      "highlight": "keyword.control"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "file",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "in",
+      "highlight": "keyword.control"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "*.md",
+      "highlight": "string"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "do",
+      "highlight": "keyword.control"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "echo",
+      "highlight": "function"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "\"Processing ",
+      "highlight": "string"
+    },
+    {
+      "text": "$",
+      "highlight": "punctuation.special"
+    },
+    {
+      "text": "file",
+      "highlight": "variable"
+    },
+    {
+      "text": "\"",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "done",
+      "highlight": "keyword.control"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```diff",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "-",
+      "highlight": "punctuation.special"
+    },
+    {
+      "text": " old line",
+      "highlight": "keyword"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "+",
+      "highlight": "punctuation.special"
+    },
+    {
+      "text": " new line",
+      "highlight": "string"
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Blockquotes ──────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Simple blockquote",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Multi-paragraph blockquote.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Second paragraph with ",
+      "highlight": null
+    },
+    {
+      "text": "`inline code`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Nested blockquote:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> > ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Deeply nested quote",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> >",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> > > ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Even deeper",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Blockquote with list:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Item one",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Item two",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "And a code block:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    const x = 1;",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Tables ───────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Syntax    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Description ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   Score ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "---------",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " :",
+      "highlight": null
+    },
+    {
+      "text": "---------",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ": ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "------",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ": ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Header    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    Title    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  $100   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Paragraph ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    Text     ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  $200   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": "    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": "   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   $50   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Alignment ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Left ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Center ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Right ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "----------|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "----",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "------",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "|------",
+      "highlight": "punctuation"
+    },
+    {
+      "text": ":",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Cell      ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  1   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   2    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   3   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Cell      ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  4   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   5    ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "   6   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Minimal table:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "foo ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " bar",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "---",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "---",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "a   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " b",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "c   ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " d",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Horizontal Rules ─────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "---",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "***",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "___",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── HTML ─────────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "class",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"custom\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "  ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "style",
+      "highlight": "attribute"
+    },
+    {
+      "text": "=",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": "\"",
+      "highlight": "string"
+    },
+    {
+      "text": "color",
+      "highlight": "tag"
+    },
+    {
+      "text": ":",
+      "highlight": "punctuation.delimiter"
+    },
+    {
+      "text": " red\"",
+      "highlight": "string"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "HTML inside markdown",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "span",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "div",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Paragraph with ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "strong",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "bold",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "strong",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": " and ",
+      "highlight": null
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "em",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "italic",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "em",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "p",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "This is <span style=\"color: blue\">inline HTML</span> in a paragraph.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "details",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "<",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "summary",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "Click to expand",
+      "highlight": null
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "summary",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "Hidden content with **markdown**.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "</",
+      "highlight": "punctuation.bracket"
+    },
+    {
+      "text": "details",
+      "highlight": "tag"
+    },
+    {
+      "text": ">",
+      "highlight": "punctuation.bracket"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "# ── Footnotes ────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Here is a footnote reference",
+      "highlight": null
+    },
+    {
+      "text": "[^1]",
+      "highlight": "link_text"
+    },
+    {
+      "text": " and another",
+      "highlight": null
+    },
+    {
+      "text": "[^2]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[^1]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ": First footnote definition.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[^2]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ": Second footnote with ",
+      "highlight": null
+    },
+    {
+      "text": "**formatting**",
+      "highlight": "emphasis.strong"
+    },
+    {
+      "text": " and ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Longer footnote",
+      "highlight": null
+    },
+    {
+      "text": "[^longnote]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "[^longnote]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ": Multi-line footnote",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "    that continues on the next line.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Front Matter ─────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "---",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "title: My Document",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "description: \"A sample markdown file\"",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "author: Pawover",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "date: 2026-06-26",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "tags: ",
+      "highlight": "title"
+    },
+    {
+      "text": "[markdown, playground, syntax]",
+      "highlight": "link_text"
+    }
+  ],
+  [
+    {
+      "text": "draft: false",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "---",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Math ─────────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Inline math: $E = mc^2$ and $\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Display math:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "$$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "\\Gamma(z) = \\int_0^{\\infty} t^{z-1} e^{-t} \\, dt",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "$$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "$$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "\\begin{pmatrix}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "a & b \\\\",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "c & d",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "\\end{pmatrix}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "$$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Escaping ─────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Literal asterisks: \\*not italic\\*",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Literal backticks: \\`not code\\`",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Literal brackets: \\[not a link\\]",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Literal hash: \\# not a heading",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Literal underscore: \\_not emphasis\\_",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Emoji & Shortcodes ──────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": ":smile: :rocket: :warning: :100: :fire: :zap:",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Special Characters & Entities ────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "&amp; &lt; &gt; &quot; &apos;",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "&copy; &reg; &trade; &hearts;",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "&#x2764; &#128640;",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Superscript & Subscript ──────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "H~2~O and 2^10^ = 1024 (if supported by parser)",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Linking to Headings ──────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "See ",
+      "highlight": null
+    },
+    {
+      "text": "[Heading 1]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(#heading-1)",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " or ",
+      "highlight": null
+    },
+    {
+      "text": "[Code Blocks]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(#code-blocks)",
+      "highlight": "link_uri"
+    },
+    {
+      "text": ".",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Abbreviations ────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "*",
+      "highlight": null
+    },
+    {
+      "text": "[HTML]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ": Hyper Text Markup Language",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "*",
+      "highlight": null
+    },
+    {
+      "text": "[CSS]",
+      "highlight": "link_text"
+    },
+    {
+      "text": ": Cascading Style Sheets",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "HTML and CSS are web technologies.",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Attributes ───────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Some text with a custom class{.custom-class}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "Another paragraph with an id{#custom-id}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Mermaid Diagram ──────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```mermaid",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "graph TD",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    A[Start] --> B{Decision}",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    B -->|Yes| C[Process]",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    B -->|No| D[End]",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    C --> D",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```mermaid",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "sequenceDiagram",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    Alice->>John: Hello John, how are you?",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    John-->>Alice: Great!",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "    Alice-)John: See you later!",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Mixing Everything ────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "## Nested heading in blockquote",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "List item with ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "- ",
+      "highlight": "punctuation.list_marker"
+    },
+    {
+      "text": "Another item with ",
+      "highlight": null
+    },
+    {
+      "text": "**bold**",
+      "highlight": "emphasis.strong"
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ```js",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "const",
+      "highlight": "keyword"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "x",
+      "highlight": "variable"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "=",
+      "highlight": "operator"
+    },
+    {
+      "text": " ",
+      "highlight": null
+    },
+    {
+      "text": "42",
+      "highlight": "number"
+    },
+    {
+      "text": ";",
+      "highlight": "punctuation.delimiter"
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "operator"
+    },
+    {
+      "text": " ```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> |",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Col A ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " Col B ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> |-------|-------|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> |",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " data  ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    },
+    {
+      "text": " more  ",
+      "highlight": null
+    },
+    {
+      "text": "|",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": ">",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "> ",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "[Link]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(#)",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " and ",
+      "highlight": null
+    },
+    {
+      "text": "![img]",
+      "highlight": "link_text"
+    },
+    {
+      "text": "(https://placehold.co/16)",
+      "highlight": "link_uri"
+    },
+    {
+      "text": " and $x^2$",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Raw Block ────────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```{=html}",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "<!-- This is a raw HTML block for pandoc -->",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": "punctuation"
+    },
+    {
+      "text": "<video src=\"video.mp4\" controls></video>",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "```",
+      "highlight": "punctuation"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Line Blocks ──────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "| Line one",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "| Line two with ",
+      "highlight": null
+    },
+    {
+      "text": "`code`",
+      "highlight": "text.literal"
+    }
+  ],
+  [
+    {
+      "text": "| Line three",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "# ── Grid Tables ──────────────────────────────────────────────────",
+      "highlight": "title"
+    }
+  ],
+  [
+    {
+      "text": "",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "+----------+----------+",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "| Header 1 | Header 2 |",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "+==========+==========+",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "| Cell A   | Cell B   |",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "+----------+----------+",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "| Cell C   | Cell D   |",
+      "highlight": null
+    }
+  ],
+  [
+    {
+      "text": "+----------+----------+",
+      "highlight": null
+    }
+  ]
+]
